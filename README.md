@@ -5,7 +5,7 @@ Eaiser colors is a wrapper for the std/colors module with the goal of making it 
 The module simply modifies the String prototype so usage is simple. Simply import the module then tack a .color() onto the string you want to modify.
 
 ```
-import "https://raw.githubusercontent.com/herohamp/EaiserColors/master/mod.ts"
+import "https://deno.land/x/eaisercolors/mod.ts"
 console.log("Hello World".red())
 ```
 
@@ -21,7 +21,7 @@ console.log(bgBlue(red(bold("Hello"))) + bold(blue(" world!")));
 ```
 EaiserColors
 ```
-import "https://raw.githubusercontent.com/herohamp/EaiserColors/master/mod.ts"
+import "https://deno.land/x/eaisercolors/mod.ts"
 console.log("Hello".bgBlue().red().bold() + " world!".bold().blue())
 ```
 
